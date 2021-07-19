@@ -1,8 +1,0 @@
-name: StonecutterDamage
-version: 1.0.0
-main: im.dnn.StonecutterDamage.StonecutterDamage
-api-version: 1.17
-permissions:
-  stonecutterDamage.bypass:
-    description: Avoid stonecutter damage
-    default: false
