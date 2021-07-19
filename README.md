@@ -6,9 +6,10 @@ Receive damage if you step on stonecutter.
 
 **Features**
 
-- Take 2 points of damage every you move on stonecutter
-- Damage configurable
-- Custom death message
+- Take ~4 points of damage every you move on stonecutter
+- Configurable damage and damage rate
+- Configurable knockback
+- Custom random death messages
 - Permission to avoid damage
 
 **Permissions**
@@ -19,14 +20,17 @@ Receive damage if you step on stonecutter.
 
 ```yaml
 debug: false
-damageAmount: 2.0
-deathMessage: <player> died stepping on stonecutter
+damage:
+  amount: 4.0
+  rate: 2.0
+knockback:
+  enabled: true
+  rate: 0.05
+deathMessages:
+  - <player> died stepping on stonecutter
+  - <player> chop his leg
 ```
 
 **Future plans**
 
-- Add more random death messages
-- Add cofigurable knockback in every damage
-- Add damage rate
-- Add continuous damage meanwhile stay on the stonecutter
 - Give damage to every entity (Villagers, enemies, mobs, etc)

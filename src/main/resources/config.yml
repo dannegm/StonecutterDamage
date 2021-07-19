@@ -1,3 +1,10 @@
-debug: true
-damageAmount: 2.0
-deathMessage: <player> died stepping on stonecutter
+debug: false
+damage:
+  amount: 4.0
+  rate: 2.0
+knockback:
+  enabled: true
+  rate: 0.05
+deathMessages:
+  - <player> died stepping on stonecutter
+  - <player> chop his leg
